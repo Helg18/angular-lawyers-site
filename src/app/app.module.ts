@@ -11,6 +11,7 @@ import { NewsletterComponent } from './components/newsletter/newsletter.componen
 import { AttorneysComponent } from './components/attorneys/attorneys.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { BlogSingleComponent } from './components/blog/blog-single/blog-single.component';
+import { PracticeSingleComponent } from './components/practice-areas/practice-single/practice-single.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { BlogSingleComponent } from './components/blog/blog-single/blog-single.c
     NewsletterComponent,
     AttorneysComponent,
     BlogComponent,
-    BlogSingleComponent
+    BlogSingleComponent,
+    PracticeSingleComponent
   ],
   imports: [
     BrowserModule
