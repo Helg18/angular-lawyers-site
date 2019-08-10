@@ -10,6 +10,7 @@ import { PracticeAreasComponent } from './components/practice-areas/practice-are
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
 import { AttorneysComponent } from './components/attorneys/attorneys.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { BlogSingleComponent } from './components/blog/blog-single/blog-single.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BlogComponent } from './components/blog/blog.component';
     PracticeAreasComponent,
     NewsletterComponent,
     AttorneysComponent,
-    BlogComponent
+    BlogComponent,
+    BlogSingleComponent
   ],
   imports: [
     BrowserModule
