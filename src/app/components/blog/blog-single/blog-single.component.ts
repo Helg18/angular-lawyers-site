@@ -12,4 +12,6 @@ export class BlogSingleComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSubmit() {
+  }
 }
