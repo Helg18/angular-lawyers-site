@@ -9,6 +9,7 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { PracticeAreasComponent } from './components/practice-areas/practice-areas.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
 import { AttorneysComponent } from './components/attorneys/attorneys.component';
+import { BlogComponent } from './components/blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AttorneysComponent } from './components/attorneys/attorneys.component';
     AboutusComponent,
     PracticeAreasComponent,
     NewsletterComponent,
-    AttorneysComponent
+    AttorneysComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule
