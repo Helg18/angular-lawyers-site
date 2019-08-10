@@ -11,13 +11,13 @@ import {ContactComponent} from './components/contact/contact.component';
 
 const routes: Routes = [
   {path: 'angular-lawyers-site', component: MainComponent},
-  {path: 'angular-lawyers-site/about-us', component: AboutusComponent},
-  {path: 'angular-lawyers-site/practice-areas', component: PracticeAreasComponent},
-  {path: 'angular-lawyers-site/practice-areas/single', component: PracticeSingleComponent},
-  {path: 'angular-lawyers-site/attorneys', component: AttorneysComponent},
-  {path: 'angular-lawyers-site/blog', component: BlogComponent},
-  {path: 'angular-lawyers-site/blog/single', component: BlogSingleComponent},
-  {path: 'angular-lawyers-site/contact', component: ContactComponent},
+  {path: 'angular-lawyers-site/angular-lawyers-site/about-us', component: AboutusComponent},
+  {path: 'angular-lawyers-site/angular-lawyers-site/practice-areas', component: PracticeAreasComponent},
+  {path: 'angular-lawyers-site/angular-lawyers-site/practice-areas/single', component: PracticeSingleComponent},
+  {path: 'angular-lawyers-site/angular-lawyers-site/attorneys', component: AttorneysComponent},
+  {path: 'angular-lawyers-site/angular-lawyers-site/blog', component: BlogComponent},
+  {path: 'angular-lawyers-site/angular-lawyers-site/blog/single', component: BlogSingleComponent},
+  {path: 'angular-lawyers-site/angular-lawyers-site/contact', component: ContactComponent},
   {path: 'angular-lawyers-site', component: MainComponent, pathMatch:  'full' },
 ];
 
